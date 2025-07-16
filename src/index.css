@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+html, body {
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+header nav a {
+  font-family: 'Inter', sans-serif;
+}
+
+header button {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1,.hero-text {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-blend-mode: darken;
+    background-color: black;
+}
